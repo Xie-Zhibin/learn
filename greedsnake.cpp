@@ -4,7 +4,6 @@
 /*cpu占用率在双核core i5上保持在0.7%以下，四核core i7基本保持在0.1%以下，内存占用0.4M*/
 /*本游戏通过windows下的gcc 4.9.3和vs2015的编译，
 使用vs编译时请包含头文件"stdafx.h"，并将第53行的getch函数修改为_gerch*/
-//author:计科153-谢志彬
 //time:2016-04-24
 
 #include "stdafx.h" //for vs2015！！！！
