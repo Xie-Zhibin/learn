@@ -7,7 +7,7 @@ import smtplib
 
 def send_email(text, to_addr):
     """Send Email, arg:'to_addr' is a list."""
-    from_addr = 'youremail'  # e.g.: 1234@163.com
+    from_addr = 'youremail'  # e.g. 1234@163.com
     email_password = 'password'
     smtp_server = 'smtp.163.com'
     msg = MIMEText(text, 'html', 'utf-8')  # structure MIMEText object
